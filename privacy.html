@@ -1,1 +1,177 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitagram – Privacy Policy / Политика за поверителност</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+            background: #f8f9fa;
+            color: #222;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 24px 16px 40px;
+            background: #ffffff;
+        }
+        h1, h2, h3, h4 {
+            color: #111827;
+        }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+        h2 {
+            margin-top: 32px;
+            border-top: 1px solid #e5e7eb;
+            padding-top: 24px;
+        }
+        h3 {
+            margin-top: 24px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        hr {
+            margin: 32px 0;
+            border: none;
+            border-top: 1px solid #e5e7eb;
+        }
+        .lang-label {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #6b7280;
+            margin-bottom: 4px;
+        }
+        a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .updated {
+            font-size: 14px;
+            color: #6b7280;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <div class="lang-label">BG</div>
+    <h1>Privacy Policy / Политика за поверителност</h1>
+    <p class="updated">Последна актуализация: 29 октомври 2025 г.</p>
+
+    <p><strong>Vitagram</strong> е Android приложение, разработено с цел проследяване на хранителен прием и здравословни навици. За да може да предоставя функционалностите си, приложението събира и обработва определени данни съгласно настоящата политика за поверителност.</p>
+
+    <h3>1. Какви данни събираме</h3>
+    <ul>
+        <li><strong>Профилни данни:</strong> имейл адрес, възраст, пол, тегло, височина, ниво на активност и цел (например поддържане или сваляне на тегло).</li>
+        <li><strong>Хранителни данни:</strong> въведени и логнати храни, калории, макро- и микронутриенти.</li>
+        <li><strong>Достъп до камера:</strong>
+            <ul>
+                <li>Използва се само за две цели:
+                    <ol>
+                        <li>Сканиране на баркодове на храни, за да се извлече хранителна информация.</li>
+                        <li>Заснемане на снимки на храни, когато потребителят добавя ръчно нов продукт.</li>
+                    </ol>
+                </li>
+                <li>Заснетите снимки могат да бъдат изпратени към сървър (Supabase Storage) с цел анализ или съхранение в профила на потребителя.</li>
+            </ul>
+        </li>
+        <li><strong>Технически данни:</strong> версия на приложението, операционна система и анонимна статистика за грешки.</li>
+    </ul>
+
+    <h3>2. Как използваме данните</h3>
+    <ul>
+        <li>За да изчисляваме и показваме дневния калориен прием и препоръки.</li>
+        <li>За да запазим вашите лични настройки и дневник на хранене.</li>
+        <li>За подобряване на точността на хранителната база данни и цялостното потребителско изживяване.</li>
+    </ul>
+
+    <h3>3. Съхранение и сигурност</h3>
+    <ul>
+        <li>Данните се съхраняват в Supabase (PostgreSQL + Storage) със защитен достъп чрез JWT токени и Row Level Security (RLS) правила.</li>
+        <li>Снимките и данните от баркодове не се споделят публично и се свързват само с вашия профил.</li>
+    </ul>
+
+    <h3>4. Споделяне на данни</h3>
+    <p><strong>Vitagram</strong> не споделя лични данни с трети страни, освен ако това не се изисква от закона.</p>
+
+    <h3>5. Вашите права</h3>
+    <p>Имате право да:</p>
+    <ul>
+        <li>изтриете профила си и всички лични данни, свързани с него;</li>
+        <li>поискате копие от съхраняваната информация за вас;</li>
+        <li>оттеглите съгласието си за обработка на данни по всяко време.</li>
+    </ul>
+
+    <h3>6. Контакт</h3>
+    <p>За въпроси относно поверителността и защитата на данните можете да се свържете с нас на следния имейл адрес:<br>
+        <strong>privacy@vitagram.app</strong> (примерен адрес – можеш да го промениш според реалния си контакт).</p>
+
+    <hr>
+
+    <div class="lang-label">EN</div>
+    <h2>Privacy Policy</h2>
+    <p class="updated">Last updated: October 29, 2025</p>
+
+    <p><strong>Vitagram</strong> is a nutrition and wellness tracking app. To provide its services, the app collects and processes certain data in accordance with this Privacy Policy.</p>
+
+    <h3>1. Data We Collect</h3>
+    <ul>
+        <li><strong>Profile information:</strong> email address, age, gender, weight, height, activity level, and goals (e.g. weight loss, maintenance).</li>
+        <li><strong>Nutrition data:</strong> logged foods, calories, macronutrients, and micronutrients.</li>
+        <li><strong>Camera access:</strong>
+            <ul>
+                <li>Used only for:
+                    <ol>
+                        <li>Scanning food barcodes to retrieve nutritional data.</li>
+                        <li>Capturing food images when the user adds a new food manually.</li>
+                    </ol>
+                </li>
+                <li>Captured images may be uploaded to Supabase Storage for analysis or storage in the user’s account.</li>
+            </ul>
+        </li>
+        <li><strong>Technical data:</strong> app version, operating system, and anonymized crash statistics.</li>
+    </ul>
+
+    <h3>2. How We Use Data</h3>
+    <ul>
+        <li>To calculate and display daily calorie targets and nutrition statistics.</li>
+        <li>To save your food log, settings, and preferences.</li>
+        <li>To improve the food database and the overall user experience.</li>
+    </ul>
+
+    <h3>3. Data Storage and Security</h3>
+    <ul>
+        <li>Data is stored securely on Supabase (PostgreSQL + Storage) using JWT authentication and Row Level Security (RLS) rules.</li>
+        <li>Food images and barcode data are private and only linked to your account.</li>
+    </ul>
+
+    <h3>4. Data Sharing</h3>
+    <p><strong>Vitagram</strong> does not share personal data with third parties, except where required by law.</p>
+
+    <h3>5. Your Rights</h3>
+    <p>You have the right to:</p>
+    <ul>
+        <li>delete your account and all associated personal data;</li>
+        <li>request a copy of the data we store about you;</li>
+        <li>withdraw your consent to data processing at any time.</li>
+    </ul>
+
+    <h3>6. Contact</h3>
+    <p>For privacy inquiries and data protection questions, you can contact us at:<br>
+        <strong>privacy@vitagram.app</strong> (sample address – replace with your real contact if different).</p>
+
+</div>
+</body>
+</html>
 
